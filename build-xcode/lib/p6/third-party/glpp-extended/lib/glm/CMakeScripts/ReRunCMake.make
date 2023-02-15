@@ -5,20 +5,20 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glpp-extended/lib/glm/CMakeLists.txt))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glpp-extended/lib/glm/cmake/cmake_uninstall.cmake.in))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glpp-extended/lib/glm/glm/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glpp-extended/lib/glm/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glpp-extended/lib/glm/cmake/cmake_uninstall.cmake.in))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glpp-extended/lib/glm/glm/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/Cellar/cmake/3.25.0/share/cmake/Modules/GNUInstallDirs.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/cmake.verify_globs))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/cmake.verify_globs))
 
 .NOTPARALLEL:
 
 .PHONY: all VERIFY_GLOBS
 
-all: VERIFY_GLOBS /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/cmake.check_cache
+all: VERIFY_GLOBS /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/cmake.check_cache
 
 VERIFY_GLOBS:
-	/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/VerifyGlobs.cmake
+	/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/VerifyGlobs.cmake
 
-/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -H/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1 -B/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode
+/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -H/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1 -B/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode

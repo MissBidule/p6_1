@@ -1,8 +1,8 @@
-if(NOT EXISTS "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/install_manifest.txt")
+if(NOT EXISTS "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/install_manifest.txt")
 endif()
 
-file(READ "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/install_manifest.txt" files)
+file(READ "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

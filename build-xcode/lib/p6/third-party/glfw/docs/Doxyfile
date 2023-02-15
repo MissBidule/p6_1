@@ -58,7 +58,7 @@ PROJECT_LOGO           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs"
+OUTPUT_DIRECTORY       = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs"
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create 4096 sub-
 # directories (in 2 levels) under the output directory of each output format and
@@ -728,7 +728,7 @@ FILE_VERSION_FILTER    =
 # DoxygenLayout.xml, doxygen will parse it automatically even if the LAYOUT_FILE
 # tag is left empty.
 
-LAYOUT_FILE            = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/DoxygenLayout.xml"
+LAYOUT_FILE            = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/DoxygenLayout.xml"
 
 # The CITE_BIB_FILES tag can be used to specify one or more bib files containing
 # the reference definitions. This must be a list of .bib files. The .bib
@@ -804,7 +804,7 @@ WARN_FORMAT            = "$file:$line: $text"
 # messages should be written. If left blank the output is written to standard
 # error (stderr).
 
-WARN_LOGFILE           = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/warnings.txt"
+WARN_LOGFILE           = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/warnings.txt"
 
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
@@ -817,22 +817,22 @@ WARN_LOGFILE           = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/
 # Note: If this tag is empty the current directory is searched.
 
 INPUT                  =  \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/main.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/news.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/quick.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/moving.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compile.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/build.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/intro.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/context.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/monitor.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/window.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/input.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/vulkan.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compat.dox" \
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/internal.dox"
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/main.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/news.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/quick.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/moving.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compile.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/build.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/intro.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/context.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/monitor.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/window.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/input.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/vulkan.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compat.dox" \
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/internal.dox"
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -907,7 +907,7 @@ EXCLUDE_SYMBOLS        = APIENTRY GLFWAPI
 # that contain example code fragments that are included (see the \include
 # command).
 
-EXAMPLE_PATH           = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/examples"
+EXAMPLE_PATH           = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/examples"
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp and
@@ -1132,7 +1132,7 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER            = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/header.html"
+HTML_HEADER            = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/header.html"
 
 # The HTML_FOOTER tag can be used to specify a user-defined HTML footer for each
 # generated HTML page. If the tag is left blank doxygen will generate a standard
@@ -1142,7 +1142,7 @@ HTML_HEADER            = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/
 # that doxygen normally uses.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_FOOTER            = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/footer.html"
+HTML_FOOTER            = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/footer.html"
 
 # The HTML_STYLESHEET tag can be used to specify a user-defined cascading style
 # sheet that is used by each HTML page. It can be used to fine-tune the look of
@@ -1167,7 +1167,7 @@ HTML_STYLESHEET        =
 # list). For an example see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/extra.css"
+HTML_EXTRA_STYLESHEET  = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/extra.css"
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -1177,7 +1177,7 @@ HTML_EXTRA_STYLESHEET  = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/spaces.svg"
+HTML_EXTRA_FILES       = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/spaces.svg"
 
 # The HTML_COLORSTYLE_HUE tag controls the color of the HTML output. Doxygen
 # will adjust the colors in the style sheet and background images according to

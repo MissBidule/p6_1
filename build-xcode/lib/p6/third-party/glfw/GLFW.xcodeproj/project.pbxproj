@@ -9,21 +9,21 @@
 /* Begin PBXAggregateTarget section */
 		110129FAD2D44F3184B4C642 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E763835F7B6648B3B61F424B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 94580B06AEBE4643AA63ACDA /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				252C25DA47494E9F8CC2A7ED /* PBXTargetDependency */,
+				4BA072614A40482D92760451 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		96C0685567AB4D37B2D2A433 /* update_mappings */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C3EC497233384202BFE4143E /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildConfigurationList = 299F0426A87047D8BE7A460B /* Build configuration list for PBXAggregateTarget "update_mappings" */;
 			buildPhases = (
-				8DC25752FF23A4E55BA1DA67 /* Generate src/CMakeFiles/update_mappings */,
+				C6F94437D34B0E71B156C346 /* Generate src/CMakeFiles/update_mappings */,
 			);
 			dependencies = (
 			);
@@ -32,9 +32,9 @@
 		};
 		9FF5529006874B23BDEA61A5 /* docs */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 283E2414B8DB4B748873DEC4 /* Build configuration list for PBXAggregateTarget "docs" */;
+			buildConfigurationList = FA32C0CC8F324F1382EE6492 /* Build configuration list for PBXAggregateTarget "docs" */;
 			buildPhases = (
-				0452A01B5F4C7DB355DB87EA /* Generate docs/html/index.html */,
+				6DDB35415D394D7C1CD6194B /* Generate docs/html/index.html */,
 			);
 			dependencies = (
 			);
@@ -43,23 +43,23 @@
 		};
 		A10F8E9ABF9343839D6955FF /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A1D964575DEE4FCEBD375A68 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = CC5175FF499F4E17A7B4CEF4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				3D2AABE1853E4BEDFDAF380B /* Generate CMakeFiles/ALL_BUILD */,
+				C5D3A86BBEAFE7FA4EA3CCF0 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				72D94B83F25340EBB8590AA9 /* PBXTargetDependency */,
-				847DF5280E504455B01ABE7E /* PBXTargetDependency */,
-				CB4D950D6CFD4953B920F041 /* PBXTargetDependency */,
+				815E5A1117EB469883A4996A /* PBXTargetDependency */,
+				815C848BF6A543A2ACE13757 /* PBXTargetDependency */,
+				44E1BC1FCEE44C269A8A56D0 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		E047A8A012274048BB6FB867 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 916F1C9B4B154FE5A4A715F7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = FD26F06E06F345F294106936 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				8D8B09750733D10A2C156C5D /* Generate CMakeFiles/ZERO_CHECK */,
+				6C6E0667F27679C9BBB1EF44 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
@@ -69,95 +69,95 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02CB57ECB65347B88CD05801 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 46639B7A04EF4D1EB5B36483 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */; };
-		1E4E57E9CF3A41C589A6B0A9 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = 78F875F857D94C4AAED3B12A /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */; };
-		3554693E40AC4F908C000E9E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 0FE1B6E67ECC429C913F29B3 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */; };
-		35E725CA1583456DA679848E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 2B7ECCA435CF4CE3AE2C6E21 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */; };
-		3B637554C95C4E8B86B8A155 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = 65B1D8DB15A844BA8361D312 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */; };
-		406175B29578493F9A18D067 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 25F58CCF614D4656BC85B50D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */; };
-		429A8FB62A134B62B64EED0F /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = A47E6A6855DC4F9E9BCBFB72 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */; };
-		469A5213210E4706A3938903 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 6B0DDC48B8674E4FAF5102FE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */; };
-		5187825C1F2E48368C0BBAD3 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 8F0951B92BA647BDAF37216D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */; };
-		5781377B41E44CD2B6FC8989 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = CF2B542805244DE086383170 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */; };
-		583FE59FE9D54D78800F46CB /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = AEFFA78CDBB74BAD8E82EC57 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */; };
-		71DCFA8FCFDF410EB71265D7 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = CCCF1E0335A74B94A8BF914D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */; };
-		7D446B54CED546A5907F8C40 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = 796CFAF36E524726B4156167 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */; };
-		881A1A76F6E7478C8D02DFE4 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 8C11C353BD394FE2A276EDAC /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */; };
-		8F725F0DFD5D45EFA49A550B /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 0DC7ECFB085146C1BC8B2A06 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */; };
-		906F36001336453FA5024ADE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 050FC66EB9B14EC49EC98887 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */; };
-		91C6936F14E54821A81AA89C /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = C1930EA8441B48D1BC9B9C20 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */; };
-		948C591C37DC49C1985189B6 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = D4EB754FB30041C186CA4C1B /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */; };
-		9D2EC8C7AC3940D1BF836667 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = A0E00C543D80406C93434808 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */; };
-		9F8960C19C374713879BAC46 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = 1A4356044FB04CF2BA2F305C /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */; };
-		9FB2194854E54CC183F64B3F /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 41458E4AA2AE4B369FBB1767 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */; };
-		B948161455E540719C520182 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 6A44A5E0A1394F51A4158A8E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */; };
-		C9B182DCB6D6476AAE1744D5 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BF04575F1F3247039CF93467 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */; };
-		D1193D88149042B29168C1DA /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 6A1E148082AC478A80472D15 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */; };
-		DE2903EBDAF44051BCCCEE68 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 376C841DE4E54AD9ABC8311F /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */; };
-		E09A51D64EE04AC2925BBC0A /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = AF92EDEF7EEA442A9F8F3604 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */; };
-		E69D8AEC5AA54A47AB11F676 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = F522A4D3BA3F40D4A5DA50FE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */; };
-		E98A21543E2D4C01843CDFF9 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = ADDD2E56D6E94776AF3EA875 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */; };
-		ECD7283E475340C2A7EC4959 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 2EC6AD4F65F3423F93DC9641 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */; };
-		F47D8FA8528C4124997F12A6 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = A118605FE18A40E692E6E52D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */; };
-		F49801F386BC4598AC920777 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = B793E03B19F64E1D8B882A34 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */; };
-		F973455F7575487E91B14FC7 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = B3225ADFFE1E40A2A662D32B /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */; };
-		FE631F615CAB4D43BEDE2D90 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = FA9A612F19EB4914A12CB923 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */; };
+		09EF2EA28F5E466EB33F681F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = D298DA8D75D04B0886796137 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */; };
+		0AA87192F1484A938BBFE574 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 4F6E3B7484F344A9B49A7685 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */; };
+		120D0141354F47F4B4356603 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = 1A5A4691D7BF4975A031A835 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */; };
+		1E67583FB8D149FFB52A8302 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 30D0739FAF0B4546ADD8B5D3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */; };
+		21C9B2E798394B13A6EF373B /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 14B15BF3A9554EF29AE272F9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */; };
+		223D230EE8EF43EC8E74576E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 3C76FF621DF64530B6208A95 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */; };
+		2A8ABF3342F34969BE2122EB /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = FA767D3761654FBF8516AD49 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */; };
+		2A9D6597A31849CB98290326 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 4583C245A30D4FDB90800530 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */; };
+		3FE9A8C8A0684F65B36A8CAD /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 4E32592B3A04430890A7CB1E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */; };
+		40E88FBE35D74DC7BE6D379C /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = C4DBFA59598644BCB9054CCB /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */; };
+		459C172EF3BB45928F4C83AE /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = AADFA4FDD10645608819BB27 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */; };
+		4FE9025646DC44A9B564561A /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 28D0B1EB2F7C4F7B9620B13F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */; };
+		5CAFD8D03D894FA189A9CEB9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = C519F6E62DDA41A7AE8A01F9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */; };
+		5D87607120A249DDB63FA35A /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 550A0F5310A5430F9493EF56 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */; };
+		5FAB3BFAEFA447D68954151D /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = AEBAF25D95B44E4F961ECA9E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */; };
+		62CEE4D8F2F64998B90A5BD3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = 6D647ACEE9C145A381E06B3E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */; };
+		82E5E3BA2BAB403C96AE5550 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = 54C4ACAD182E4B80A0425178 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */; };
+		84B120BCB3E54E61959D7A29 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 8472BECE55D84C6EAE61A834 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */; };
+		8747BD124493454EA510D49E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 428D3BD37A334D5593695386 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */; };
+		884F1659C012462B9EC9C487 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 335F382F2B244A41B67DFBC7 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */; };
+		8C1EBF21923645F2BB60328A /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = 54F14ACD8A724D13B3F97B49 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */; };
+		9DEA18379F49439687CB0AF6 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = B40AA11F7D8F4D5CA0A93325 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */; };
+		AC71DB462D2B45379F03641F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 3126AFE109DC4A48AF9825D5 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */; };
+		BD8EF7E9F3A24D19ABA4348F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = F31D33C93C334B7788F1CBEA /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */; };
+		CF6106DD740F4276B20D60B9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 121EF9338DD84546AFA67197 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */; };
+		D65DDB55BE204149ABBC0672 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 3EE7B81D2D39448583DF48B6 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */; };
+		D79D28CE754147F38DCEB5D7 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = 0E0622E1086B48F1964E7CA4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */; };
+		E1CBC435BE4D482CA221182E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 72F9410656094411B9C5234D /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */; };
+		E31EEC0F780046C09740D4D9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = A9022A1AF6B64243A212B3A4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */; };
+		E5906BAB015E4BBD857266BE /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = B4DB3F532F7F4FB2913AB201 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */; };
+		E77B1FCBED4445B9BDCD800A /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 9C4050B55F7F498BB0A1074E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */; };
+		EA605F430F4D4E3CAD1EA9F4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = E5F2B1C1F1A048D9BAC5C1F4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */; };
+		F03BB4AC91FC451EAD849EC3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = 7F3637A6574E4C71BDA3F5CA /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		24D72C20BDF34DD19BB6D36E /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		45FE2C9F78A44D6DAB562A81 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		4E432F9A4FC148CDBAB0D944 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		A754B632950F4A5097531BE1 /* RelWithDebInfo */ = {
+		1D38639C7E044CCEB57BEF4E /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		499FF3FFFD84453FBB3FF9B6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5AE6E4D6F338421C8C0815D8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8984EAF88EB54DB894DF18FA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		89C907E46C754995B18A6509 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BDF4EFDA6DF444F2BF29F97B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E047A8A012274048BB6FB867;
-			remoteInfo = ZERO_CHECK;
-		};
-		9D460ECDEBEE41B6A32DA1B8 /* PBXContainerItemProxy */ = {
+		37CF517423E345A8A9D2BDB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BDF4EFDA6DF444F2BF29F97B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A10F8E9ABF9343839D6955FF;
 			remoteInfo = ALL_BUILD;
 		};
-		ADCEBC0C1E0D47118B0F1BB8 /* PBXContainerItemProxy */ = {
+		79D7394DC5BF474EAE28687C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF4EFDA6DF444F2BF29F97B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E047A8A012274048BB6FB867;
+			remoteInfo = ZERO_CHECK;
+		};
+		8FBDF9D35A7C407781E466A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BDF4EFDA6DF444F2BF29F97B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3B51882CEFED4603BE585DBF;
 			remoteInfo = glfw;
 		};
-		F51DB354DB924F22BCCD82C7 /* PBXContainerItemProxy */ = {
+		F6DF55E1AAA64D7EAC9C76BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BDF4EFDA6DF444F2BF29F97B /* Project object */;
 			proxyType = 1;
@@ -167,50 +167,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050FC66EB9B14EC49EC98887 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		0DC7ECFB085146C1BC8B2A06 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		0FE1B6E67ECC429C913F29B3 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		1A4356044FB04CF2BA2F305C /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = src/null_joystick.c; sourceTree = SOURCE_ROOT; };
-		2240A5AEB6454036A240AD1E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		25F58CCF614D4656BC85B50D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
-		2B7ECCA435CF4CE3AE2C6E21 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = src/platform.c; sourceTree = SOURCE_ROOT; };
-		2EC6AD4F65F3423F93DC9641 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		376C841DE4E54AD9ABC8311F /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		40D286593C2E420CBE270B47 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
-		41458E4AA2AE4B369FBB1767 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		46639B7A04EF4D1EB5B36483 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
-		60C876B84A384A4CAFF61061 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		65B1D8DB15A844BA8361D312 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = src/null_monitor.c; sourceTree = SOURCE_ROOT; };
-		6A1E148082AC478A80472D15 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		6A44A5E0A1394F51A4158A8E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
-		6B0DDC48B8674E4FAF5102FE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		72760247268F4658BAE6FFA6 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = docs/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		78F875F857D94C4AAED3B12A /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = src/null_platform.h; sourceTree = SOURCE_ROOT; };
-		796CFAF36E524726B4156167 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = src/posix_module.c; sourceTree = SOURCE_ROOT; };
-		7D476D29C5CC4EF095BBD938 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Doxyfile; path = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile"; sourceTree = "<absolute>"; };
-		84F25996A6304F65A541345E /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C11C353BD394FE2A276EDAC /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		8F0951B92BA647BDAF37216D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
-		A0E00C543D80406C93434808 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		A118605FE18A40E692E6E52D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		A302977DBA92499D97575A3E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
-		A47E6A6855DC4F9E9BCBFB72 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = src/null_window.c; sourceTree = SOURCE_ROOT; };
-		ADDD2E56D6E94776AF3EA875 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		AEFFA78CDBB74BAD8E82EC57 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = src/null_joystick.h; sourceTree = SOURCE_ROOT; };
-		AF92EDEF7EEA442A9F8F3604 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		B3225ADFFE1E40A2A662D32B /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		B793E03B19F64E1D8B882A34 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = src/null_init.c; sourceTree = SOURCE_ROOT; };
-		BF04575F1F3247039CF93467 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C1930EA8441B48D1BC9B9C20 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		CCCF1E0335A74B94A8BF914D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		CF2B542805244DE086383170 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
-		D4EB754FB30041C186CA4C1B /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		F522A4D3BA3F40D4A5DA50FE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = src/cocoa_time.h; sourceTree = SOURCE_ROOT; };
-		FA9A612F19EB4914A12CB923 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
+		0E0622E1086B48F1964E7CA4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = src/null_monitor.c; sourceTree = SOURCE_ROOT; };
+		0F1BD586A9ED4945BA5443C2 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		121EF9338DD84546AFA67197 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		14B15BF3A9554EF29AE272F9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		1A5A4691D7BF4975A031A835 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = src/null_joystick.h; sourceTree = SOURCE_ROOT; };
+		1F3987D2D9244EDD99A4AA46 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Doxyfile; path = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile"; sourceTree = "<absolute>"; };
+		28D0B1EB2F7C4F7B9620B13F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		30D0739FAF0B4546ADD8B5D3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		3126AFE109DC4A48AF9825D5 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		335F382F2B244A41B67DFBC7 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		35667750654D4A2684AFFDF3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3C76FF621DF64530B6208A95 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		3EE7B81D2D39448583DF48B6 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		428D3BD37A334D5593695386 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		4583C245A30D4FDB90800530 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = src/platform.c; sourceTree = SOURCE_ROOT; };
+		4E32592B3A04430890A7CB1E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		4F6E3B7484F344A9B49A7685 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		54C4ACAD182E4B80A0425178 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = src/null_joystick.c; sourceTree = SOURCE_ROOT; };
+		54F14ACD8A724D13B3F97B49 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = src/cocoa_time.h; sourceTree = SOURCE_ROOT; };
+		550A0F5310A5430F9493EF56 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		6D647ACEE9C145A381E06B3E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = src/null_platform.h; sourceTree = SOURCE_ROOT; };
+		72F9410656094411B9C5234D /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		7F3637A6574E4C71BDA3F5CA /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = src/posix_module.c; sourceTree = SOURCE_ROOT; };
+		8472BECE55D84C6EAE61A834 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		9C4050B55F7F498BB0A1074E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		A9022A1AF6B64243A212B3A4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = src/null_init.c; sourceTree = SOURCE_ROOT; };
+		AADFA4FDD10645608819BB27 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
+		AEBAF25D95B44E4F961ECA9E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		B40AA11F7D8F4D5CA0A93325 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		B4DB3F532F7F4FB2913AB201 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		C2123F6CF8CB4F229C61C33B /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = docs/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C45BA60E13644E868C2E614E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
+		C4DBFA59598644BCB9054CCB /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		C519F6E62DDA41A7AE8A01F9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		D298DA8D75D04B0886796137 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		DBBAF5A75CE74AE18F997B77 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F2B1C1F1A048D9BAC5C1F4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		EF309DB4C7AF4360AEB99797 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
+		F31D33C93C334B7788F1CBEA /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		FA767D3761654FBF8516AD49 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = src/null_window.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ADFF020CE279440AABE85911 /* Frameworks */ = {
+		ED86C08A423C411591084E66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,146 +220,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02E39A1598244DB588ED32EA /* Header Files */ = {
+		19B72C1F49444EB8A97CF513 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4EB754FB30041C186CA4C1B /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */,
-				C1930EA8441B48D1BC9B9C20 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */,
-				6B0DDC48B8674E4FAF5102FE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */,
-				A118605FE18A40E692E6E52D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */,
-				F522A4D3BA3F40D4A5DA50FE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */,
-				0DC7ECFB085146C1BC8B2A06 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */,
-				46639B7A04EF4D1EB5B36483 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */,
-				AEFFA78CDBB74BAD8E82EC57 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */,
-				78F875F857D94C4AAED3B12A /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */,
-				FA9A612F19EB4914A12CB923 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */,
-				25F58CCF614D4656BC85B50D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */,
+				DBBAF5A75CE74AE18F997B77 /* glfw */,
 			);
-			name = "Header Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		0473F845398D452DB9B5E63E /* CMake Rules */ = {
+		39CB4DBC340E4EA6A3148ABE /* update_mappings */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		100FDA00DACF406D80373F45 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C11C353BD394FE2A276EDAC /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */,
-				A0E00C543D80406C93434808 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */,
-				41458E4AA2AE4B369FBB1767 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */,
-				376C841DE4E54AD9ABC8311F /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */,
-				0FE1B6E67ECC429C913F29B3 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */,
-				2EC6AD4F65F3423F93DC9641 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */,
-				6A44A5E0A1394F51A4158A8E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */,
-				6A1E148082AC478A80472D15 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */,
-				B3225ADFFE1E40A2A662D32B /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */,
-				AF92EDEF7EEA442A9F8F3604 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */,
-				ADDD2E56D6E94776AF3EA875 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */,
-				B793E03B19F64E1D8B882A34 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */,
-				1A4356044FB04CF2BA2F305C /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */,
-				65B1D8DB15A844BA8361D312 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */,
-				A47E6A6855DC4F9E9BCBFB72 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */,
-				CF2B542805244DE086383170 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */,
-				2B7ECCA435CF4CE3AE2C6E21 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */,
-				796CFAF36E524726B4156167 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */,
-				8F0951B92BA647BDAF37216D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */,
-				CCCF1E0335A74B94A8BF914D /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */,
-				050FC66EB9B14EC49EC98887 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		16B44965AF74470CAB8BA649 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		1CCD4C1EBD6E414B80665161 /* update_mappings */ = {
-			isa = PBXGroup;
-			children = (
-				3CC9355CA1C1406AB5980423 /* Header Files */,
-				16B44965AF74470CAB8BA649 /* CMake Rules */,
-				40D286593C2E420CBE270B47 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake */,
-				60C876B84A384A4CAFF61061 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */,
+				5BE6AD434D1E40FB8DCE5B77 /* Header Files */,
+				B6DBA872569740B795A867CF /* CMake Rules */,
+				C45BA60E13644E868C2E614E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake */,
+				35667750654D4A2684AFFDF3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */,
 			);
 			name = update_mappings;
 			sourceTree = "<group>";
 		};
-		22AFDC8B30394B5DAD5E3905 /* Frameworks */ = {
+		5BE6AD434D1E40FB8DCE5B77 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF309DB4C7AF4360AEB99797 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5F0C67AB9E214E499AFE7BD5 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				1F3987D2D9244EDD99A4AA46 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile */,
+				C2123F6CF8CB4F229C61C33B /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/CMakeLists.txt */,
+			);
+			name = docs;
+			sourceTree = "<group>";
+		};
+		6B097DF7D2D54E138B5B649F /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				825353170A8A41C4961010C1 /* Header Files */,
+				7A067C0C3F9D49A9AE1F9AED /* Source Files */,
+				121EF9338DD84546AFA67197 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		7A067C0C3F9D49A9AE1F9AED /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F9410656094411B9C5234D /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */,
+				550A0F5310A5430F9493EF56 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */,
+				3EE7B81D2D39448583DF48B6 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */,
+				E5F2B1C1F1A048D9BAC5C1F4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */,
+				D298DA8D75D04B0886796137 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */,
+				3C76FF621DF64530B6208A95 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */,
+				AEBAF25D95B44E4F961ECA9E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */,
+				C4DBFA59598644BCB9054CCB /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */,
+				4F6E3B7484F344A9B49A7685 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */,
+				30D0739FAF0B4546ADD8B5D3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */,
+				335F382F2B244A41B67DFBC7 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */,
+				A9022A1AF6B64243A212B3A4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */,
+				54C4ACAD182E4B80A0425178 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */,
+				0E0622E1086B48F1964E7CA4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */,
+				FA767D3761654FBF8516AD49 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */,
+				28D0B1EB2F7C4F7B9620B13F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */,
+				4583C245A30D4FDB90800530 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */,
+				7F3637A6574E4C71BDA3F5CA /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */,
+				F31D33C93C334B7788F1CBEA /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */,
+				B40AA11F7D8F4D5CA0A93325 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */,
+				9C4050B55F7F498BB0A1074E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		825353170A8A41C4961010C1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C519F6E62DDA41A7AE8A01F9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h */,
+				428D3BD37A334D5593695386 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h */,
+				3126AFE109DC4A48AF9825D5 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.h */,
+				B4DB3F532F7F4FB2913AB201 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_platform.h */,
+				54F14ACD8A724D13B3F97B49 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.h */,
+				8472BECE55D84C6EAE61A834 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/internal.h */,
+				4E32592B3A04430890A7CB1E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h */,
+				1A5A4691D7BF4975A031A835 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.h */,
+				6D647ACEE9C145A381E06B3E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_platform.h */,
+				AADFA4FDD10645608819BB27 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.h */,
+				14B15BF3A9554EF29AE272F9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A4312F752B3449A68A07B919 = {
+			isa = PBXGroup;
+			children = (
+				E1517ACA1C6443D982D1A376 /* ALL_BUILD */,
+				EFE5C504350D4640A6A7E96D /* GLFW3 */,
+				19B72C1F49444EB8A97CF513 /* Products */,
+				B21B259F79CF46ED8858D937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B21B259F79CF46ED8858D937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3CC9355CA1C1406AB5980423 /* Header Files */ = {
+		B6DBA872569740B795A867CF /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				A302977DBA92499D97575A3E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/mappings.h.in */,
 			);
-			name = "Header Files";
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		4F722C7626BF4817BDB1C441 /* docs */ = {
+		E14D022951104FD3A3DD90A4 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				7D476D29C5CC4EF095BBD938 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile */,
-				72760247268F4658BAE6FFA6 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/CMakeLists.txt */,
 			);
-			name = docs;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		560191BA248A4C22B54EDB97 = {
+		E1517ACA1C6443D982D1A376 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				C5C9183BCD3944E0AA6A0A49 /* ALL_BUILD */,
-				D5D217FB0E394504AA865E35 /* GLFW3 */,
-				7C1564E627214255ACBB9F08 /* Products */,
-				22AFDC8B30394B5DAD5E3905 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		7C1564E627214255ACBB9F08 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84F25996A6304F65A541345E /* glfw */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C5C9183BCD3944E0AA6A0A49 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				0473F845398D452DB9B5E63E /* CMake Rules */,
-				2240A5AEB6454036A240AD1E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMakeLists.txt */,
+				E14D022951104FD3A3DD90A4 /* CMake Rules */,
+				0F1BD586A9ED4945BA5443C2 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		D5D217FB0E394504AA865E35 /* GLFW3 */ = {
+		EFE5C504350D4640A6A7E96D /* GLFW3 */ = {
 			isa = PBXGroup;
 			children = (
-				F899804FBE8D4B89801F53E4 /* glfw */,
-				1CCD4C1EBD6E414B80665161 /* update_mappings */,
-				4F722C7626BF4817BDB1C441 /* docs */,
+				6B097DF7D2D54E138B5B649F /* glfw */,
+				39CB4DBC340E4EA6A3148ABE /* update_mappings */,
+				5F0C67AB9E214E499AFE7BD5 /* docs */,
 			);
 			name = GLFW3;
-			sourceTree = "<group>";
-		};
-		F899804FBE8D4B89801F53E4 /* glfw */ = {
-			isa = PBXGroup;
-			children = (
-				02E39A1598244DB588ED32EA /* Header Files */,
-				100FDA00DACF406D80373F45 /* Source Files */,
-				BF04575F1F3247039CF93467 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/CMakeLists.txt */,
-			);
-			name = glfw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,10 +367,10 @@
 /* Begin PBXNativeTarget section */
 		3B51882CEFED4603BE585DBF /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 884C07F743DC498D961FAEF6 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = D93C8C8377E04740B33E5281 /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				4F405867B2A549AF83821F7A /* Sources */,
-				ADFF020CE279440AABE85911 /* Frameworks */,
+				AAE778DA4E0E4ABDB6AF4C2E /* Sources */,
+				ED86C08A423C411591084E66 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,7 +378,7 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 84F25996A6304F65A541345E /* glfw */;
+			productReference = DBBAF5A75CE74AE18F997B77 /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -390,19 +390,19 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1420;
 			};
-			buildConfigurationList = 5F6F9943B58D4075AFCD2815 /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = DC8C574A3F6240B4A55889CD /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				45FE2C9F78A44D6DAB562A81 /* Debug */,
-				24D72C20BDF34DD19BB6D36E /* Release */,
-				4E432F9A4FC148CDBAB0D944 /* MinSizeRel */,
-				A754B632950F4A5097531BE1 /* RelWithDebInfo */,
+				8984EAF88EB54DB894DF18FA /* Debug */,
+				5AE6E4D6F338421C8C0815D8 /* Release */,
+				499FF3FFFD84453FBB3FF9B6 /* MinSizeRel */,
+				1D38639C7E044CCEB57BEF4E /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 560191BA248A4C22B54EDB97;
-			projectDirPath = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw";
+			mainGroup = A4312F752B3449A68A07B919;
+			projectDirPath = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw";
 			projectRoot = "";
 			targets = (
 				A10F8E9ABF9343839D6955FF /* ALL_BUILD */,
@@ -416,38 +416,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0452A01B5F4C7DB355DB87EA /* Generate docs/html/index.html */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/DoxygenLayout.xml","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/build.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compat.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compile.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/context.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/extra.css","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/footer.html","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/header.html","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/input.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/internal.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/intro.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/main.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/monitor.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/moving.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/news.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/quick.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/spaces.svg","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/vulkan.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/window.dox","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h"			);
-			name = "Generate docs/html/index.html";
-			outputPaths = (
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/html/index.html"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
-  /opt/homebrew/bin/doxygen
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
-  /opt/homebrew/bin/doxygen
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
-  /opt/homebrew/bin/doxygen
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
-  /opt/homebrew/bin/doxygen
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 		3C0110FC8322DE7E50886E21 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,7 +431,7 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		3D2AABE1853E4BEDFDAF380B /* Generate CMakeFiles/ALL_BUILD */ = {
+		6C6E0667F27679C9BBB1EF44 /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -471,27 +439,59 @@ exit 0";
 			);
 			inputPaths = (
 			);
-			name = "Generate CMakeFiles/ALL_BUILD";
+			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeFiles/ALL_BUILD"			);
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeFiles/ZERO_CHECK"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  echo Build\\ all\\ projects
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  make -f /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  echo Build\\ all\\ projects
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  make -f /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  echo Build\\ all\\ projects
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  make -f /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  echo Build\\ all\\ projects
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  make -f /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6DDB35415D394D7C1CD6194B /* Generate docs/html/index.html */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/Doxyfile","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/DoxygenLayout.xml","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/build.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compat.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/compile.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/context.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/extra.css","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/footer.html","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/header.html","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/input.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/internal.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/intro.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/main.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/monitor.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/moving.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/news.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/quick.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/spaces.svg","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/vulkan.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/docs/window.dox","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3.h","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include/GLFW/glfw3native.h"			);
+			name = "Generate docs/html/index.html";
+			outputPaths = (
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs/html/index.html"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
+  /opt/homebrew/bin/doxygen
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
+  /opt/homebrew/bin/doxygen
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
+  /opt/homebrew/bin/doxygen
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/docs
+  /opt/homebrew/bin/doxygen
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -511,72 +511,6 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		8D8B09750733D10A2C156C5D /* Generate CMakeFiles/ZERO_CHECK */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ZERO_CHECK";
-			outputPaths = (
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeFiles/ZERO_CHECK"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  make -f /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  make -f /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  make -f /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
-  make -f /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeScripts/ReRunCMake.make
-fi
-";
-			showEnvVarsInLog = 0;
-		};
-		8DC25752FF23A4E55BA1DA67 /* Generate src/CMakeFiles/update_mappings */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate src/CMakeFiles/update_mappings";
-			outputPaths = (
-"/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/CMakeFiles/update_mappings"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
-  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
-  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
-  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
-  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -590,19 +524,19 @@ fi
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
   /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
   /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
   /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
   /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 ";
@@ -621,6 +555,72 @@ fi
 			shellPath = /bin/sh;
 			shellScript = "# shell script goes here
 exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C5D3A86BBEAFE7FA4EA3CCF0 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C6F94437D34B0E71B156C346 /* Generate src/CMakeFiles/update_mappings */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate src/CMakeFiles/update_mappings";
+			outputPaths = (
+"/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/CMakeFiles/update_mappings"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
+  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
+  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
+  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src
+  /opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -P /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+";
 			showEnvVarsInLog = 0;
 		};
 		EF220574C043FA76D2683574 = {
@@ -656,66 +656,213 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F405867B2A549AF83821F7A /* Sources */ = {
+		AAE778DA4E0E4ABDB6AF4C2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				881A1A76F6E7478C8D02DFE4 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */,
-				9D2EC8C7AC3940D1BF836667 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */,
-				9FB2194854E54CC183F64B3F /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */,
-				DE2903EBDAF44051BCCCEE68 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */,
-				3554693E40AC4F908C000E9E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */,
-				ECD7283E475340C2A7EC4959 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */,
-				B948161455E540719C520182 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */,
-				D1193D88149042B29168C1DA /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */,
-				F973455F7575487E91B14FC7 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */,
-				E09A51D64EE04AC2925BBC0A /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */,
-				E98A21543E2D4C01843CDFF9 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */,
-				F49801F386BC4598AC920777 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */,
-				9F8960C19C374713879BAC46 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */,
-				3B637554C95C4E8B86B8A155 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */,
-				429A8FB62A134B62B64EED0F /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */,
-				5781377B41E44CD2B6FC8989 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */,
-				35E725CA1583456DA679848E /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */,
-				7D446B54CED546A5907F8C40 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */,
-				5187825C1F2E48368C0BBAD3 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */,
-				71DCFA8FCFDF410EB71265D7 /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */,
-				906F36001336453FA5024ADE /* /Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */,
+				E1CBC435BE4D482CA221182E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_init.m */,
+				5D87607120A249DDB63FA35A /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_joystick.m */,
+				D65DDB55BE204149ABBC0672 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_monitor.m */,
+				EA605F430F4D4E3CAD1EA9F4 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_time.c */,
+				09EF2EA28F5E466EB33F681F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/cocoa_window.m */,
+				223D230EE8EF43EC8E74576E /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/context.c */,
+				5FAB3BFAEFA447D68954151D /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/egl_context.c */,
+				40E88FBE35D74DC7BE6D379C /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/init.c */,
+				0AA87192F1484A938BBFE574 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/input.c */,
+				1E67583FB8D149FFB52A8302 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/monitor.c */,
+				884F1659C012462B9EC9C487 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/nsgl_context.m */,
+				E31EEC0F780046C09740D4D9 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_init.c */,
+				82E5E3BA2BAB403C96AE5550 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_joystick.c */,
+				D79D28CE754147F38DCEB5D7 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_monitor.c */,
+				2A8ABF3342F34969BE2122EB /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/null_window.c */,
+				4FE9025646DC44A9B564561A /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/osmesa_context.c */,
+				2A9D6597A31849CB98290326 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/platform.c */,
+				F03BB4AC91FC451EAD849EC3 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_module.c */,
+				BD8EF7E9F3A24D19ABA4348F /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/posix_thread.c */,
+				9DEA18379F49439687CB0AF6 /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/vulkan.c */,
+				E77B1FCBED4445B9BDCD800A /* /Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		252C25DA47494E9F8CC2A7ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A10F8E9ABF9343839D6955FF /* ALL_BUILD */;
-			targetProxy = 9D460ECDEBEE41B6A32DA1B8 /* PBXContainerItemProxy */;
-		};
-		72D94B83F25340EBB8590AA9 /* PBXTargetDependency */ = {
+		44E1BC1FCEE44C269A8A56D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E047A8A012274048BB6FB867 /* ZERO_CHECK */;
-			targetProxy = 89C907E46C754995B18A6509 /* PBXContainerItemProxy */;
+			targetProxy = 79D7394DC5BF474EAE28687C /* PBXContainerItemProxy */;
 		};
-		847DF5280E504455B01ABE7E /* PBXTargetDependency */ = {
+		4BA072614A40482D92760451 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B51882CEFED4603BE585DBF /* glfw */;
-			targetProxy = ADCEBC0C1E0D47118B0F1BB8 /* PBXContainerItemProxy */;
+			target = A10F8E9ABF9343839D6955FF /* ALL_BUILD */;
+			targetProxy = 37CF517423E345A8A9D2BDB5 /* PBXContainerItemProxy */;
 		};
-		CB4D950D6CFD4953B920F041 /* PBXTargetDependency */ = {
+		815C848BF6A543A2ACE13757 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9FF5529006874B23BDEA61A5 /* docs */;
-			targetProxy = F51DB354DB924F22BCCD82C7 /* PBXContainerItemProxy */;
+			targetProxy = F6DF55E1AAA64D7EAC9C76BC /* PBXContainerItemProxy */;
+		};
+		815E5A1117EB469883A4996A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B51882CEFED4603BE585DBF /* glfw */;
+			targetProxy = 8FBDF9D35A7C407781E466A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		033DFA99895C41C1B97FC7AF /* RelWithDebInfo */ = {
+		047B26497F4342DBA6D59F0F /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/RelWithDebInfo";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = docs;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0FB62DD7128345C3B0741D00 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0FEF3FDE38AA45C89F3C492C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1445766718E443B0A0CB9AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		174F6830F30E49E29EB907F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		24AD8B711E334B428FEE61A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		29594F9ED22348F1A52D56D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		352E66F8A5AA4BD1B3097858 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/RelWithDebInfo";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -723,7 +870,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
@@ -732,13 +879,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		06F6E1E9702E420A8E27B70E /* Release */ = {
+		3C8EA6ACF29144AB9B12094E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -757,9 +904,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = Debug;
 		};
-		0A6B88F21351416BBA09D1DA /* MinSizeRel */ = {
+		3DD2CC35BAD843B3BE0896B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -773,35 +920,23 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = update_mappings;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		0B9B10A954D84B0599F30AC4 /* Debug */ = {
+		494554DE017D40FBB9312211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = docs;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
 			};
 			name = Debug;
 		};
-		0D637E394ADE45999264D81E /* RelWithDebInfo */ = {
+		5287E92E25334EB4A7E10142 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -822,49 +957,53 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		0F02443195C04D388E08E75F /* Release */ = {
+		5C8E8000E0734F8DB4F987A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
 				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		282F93B7429E468A85CC2C35 /* Debug */ = {
+		5E37E2DE7E0249E7BC496866 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		3CE048DBAC314F839045DC19 /* RelWithDebInfo */ = {
+		6527254ACF2A4C9FBE3F22FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		950BCEFA74A8481894AC393D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -885,12 +1024,91 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		3D00F492778F422F850FA078 /* Debug */ = {
+		9595285F12DD4C63A0D0C2AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/Debug";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9E7D396AB40C4DF6B99DADEC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9EDE9F1E17E6440A8CFD1A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
+			};
+			name = Release;
+		};
+		A18E8DE5BFDE4B2CAAD7105D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A2312708B9924AC8A1163B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/Debug";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -898,7 +1116,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
@@ -907,139 +1125,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/liloualidor/documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		43FBE8465FA84EADA88AE01B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		457A0CF9E7DB40C08CD3AFFC /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		4835B51EDEF94AC4B4CD5B1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = docs;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		537F3EAA73D349C6BF526401 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		58A4035AE15148A397DDF335 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = docs;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		7EAA1F23E7F54758BF9B5BE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		834DA3F50F434522BB21CAA2 /* RelWithDebInfo */ = {
+		A5D6C616A1E84E56AD2ED9B9 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1060,7 +1152,28 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		967EE91A7E16430B9D2F27CA /* RelWithDebInfo */ = {
+		AF7A340AA56D41E4B824A4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = docs;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B9356A78FE784FE88D9426C1 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1081,7 +1194,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		99AC4157714543098D55B3E2 /* Debug */ = {
+		CA725596ED5249B0A7BD9E80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1095,42 +1208,14 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = update_mappings;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		9E5EB4CB6D5A4FCBAAA72BFA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		A8AFE354ACA746AEB9DF9B7B /* Debug */ = {
+		DB24E55D39104EB3B0874066 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1144,14 +1229,14 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = docs;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		B8ED0E82369842949EE6862D /* RelWithDebInfo */ = {
+		EDBDDA21584A41A39105056F /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1172,92 +1257,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		CB97740AAD96496BB5941343 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		CBA7E30B52ED4044A4DDF605 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SYMROOT = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
-			};
-			name = Debug;
-		};
-		DB1041819E1D4793915899AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/include","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/lib/p6/third-party/glfw/src","/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/lib/p6/third-party/glfw/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		E8820B3D08BA45FE87B434F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SYMROOT = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
-			};
-			name = Release;
-		};
-		EA308AEEB8624777AAFCE77A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SYMROOT = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
-			};
-			name = RelWithDebInfo;
-		};
-		EBB5B7DD76E74FFBA00D1687 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SYMROOT = "/Users/liloualidor/Documents/IMAC/annee_2/POO/S4/p6_1/build-xcode/build";
-			};
-			name = MinSizeRel;
-		};
-		EC38A5356FF54B60AF1171F6 /* MinSizeRel */ = {
+		FD06A03E76E44357813273C2 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1281,79 +1281,79 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		283E2414B8DB4B748873DEC4 /* Build configuration list for PBXAggregateTarget "docs" */ = {
+		299F0426A87047D8BE7A460B /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B9B10A954D84B0599F30AC4 /* Debug */,
-				4835B51EDEF94AC4B4CD5B1A /* Release */,
-				58A4035AE15148A397DDF335 /* MinSizeRel */,
-				0D637E394ADE45999264D81E /* RelWithDebInfo */,
+				CA725596ED5249B0A7BD9E80 /* Debug */,
+				3DD2CC35BAD843B3BE0896B7 /* Release */,
+				174F6830F30E49E29EB907F2 /* MinSizeRel */,
+				B9356A78FE784FE88D9426C1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5F6F9943B58D4075AFCD2815 /* Build configuration list for PBXProject "GLFW" */ = {
+		94580B06AEBE4643AA63ACDA /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBA7E30B52ED4044A4DDF605 /* Debug */,
-				E8820B3D08BA45FE87B434F3 /* Release */,
-				EBB5B7DD76E74FFBA00D1687 /* MinSizeRel */,
-				EA308AEEB8624777AAFCE77A /* RelWithDebInfo */,
+				9595285F12DD4C63A0D0C2AC /* Debug */,
+				1445766718E443B0A0CB9AF7 /* Release */,
+				FD06A03E76E44357813273C2 /* MinSizeRel */,
+				950BCEFA74A8481894AC393D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		884C07F743DC498D961FAEF6 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		CC5175FF499F4E17A7B4CEF4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D00F492778F422F850FA078 /* Debug */,
-				DB1041819E1D4793915899AB /* Release */,
-				9E5EB4CB6D5A4FCBAAA72BFA /* MinSizeRel */,
-				033DFA99895C41C1B97FC7AF /* RelWithDebInfo */,
+				3C8EA6ACF29144AB9B12094E /* Debug */,
+				A18E8DE5BFDE4B2CAAD7105D /* Release */,
+				0FB62DD7128345C3B0741D00 /* MinSizeRel */,
+				EDBDDA21584A41A39105056F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		916F1C9B4B154FE5A4A715F7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		D93C8C8377E04740B33E5281 /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99AC4157714543098D55B3E2 /* Debug */,
-				0F02443195C04D388E08E75F /* Release */,
-				0A6B88F21351416BBA09D1DA /* MinSizeRel */,
-				834DA3F50F434522BB21CAA2 /* RelWithDebInfo */,
+				A2312708B9924AC8A1163B28 /* Debug */,
+				5C8E8000E0734F8DB4F987A3 /* Release */,
+				9E7D396AB40C4DF6B99DADEC /* MinSizeRel */,
+				352E66F8A5AA4BD1B3097858 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A1D964575DEE4FCEBD375A68 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		DC8C574A3F6240B4A55889CD /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				537F3EAA73D349C6BF526401 /* Debug */,
-				06F6E1E9702E420A8E27B70E /* Release */,
-				43FBE8465FA84EADA88AE01B /* MinSizeRel */,
-				B8ED0E82369842949EE6862D /* RelWithDebInfo */,
+				494554DE017D40FBB9312211 /* Debug */,
+				9EDE9F1E17E6440A8CFD1A2C /* Release */,
+				5E37E2DE7E0249E7BC496866 /* MinSizeRel */,
+				6527254ACF2A4C9FBE3F22FD /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C3EC497233384202BFE4143E /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+		FA32C0CC8F324F1382EE6492 /* Build configuration list for PBXAggregateTarget "docs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				282F93B7429E468A85CC2C35 /* Debug */,
-				7EAA1F23E7F54758BF9B5BE4 /* Release */,
-				457A0CF9E7DB40C08CD3AFFC /* MinSizeRel */,
-				967EE91A7E16430B9D2F27CA /* RelWithDebInfo */,
+				AF7A340AA56D41E4B824A4D4 /* Debug */,
+				DB24E55D39104EB3B0874066 /* Release */,
+				047B26497F4342DBA6D59F0F /* MinSizeRel */,
+				5287E92E25334EB4A7E10142 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E763835F7B6648B3B61F424B /* Build configuration list for PBXAggregateTarget "install" */ = {
+		FD26F06E06F345F294106936 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8AFE354ACA746AEB9DF9B7B /* Debug */,
-				CB97740AAD96496BB5941343 /* Release */,
-				EC38A5356FF54B60AF1171F6 /* MinSizeRel */,
-				3CE048DBAC314F839045DC19 /* RelWithDebInfo */,
+				0FEF3FDE38AA45C89F3C492C /* Debug */,
+				29594F9ED22348F1A52D56D5 /* Release */,
+				24AD8B711E334B428FEE61A0 /* MinSizeRel */,
+				A5D6C616A1E84E56AD2ED9B9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -34,3 +34,5 @@ build
 .cache
 
 .DS_Store
+
+build-xcode/
