@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <vector>
 #include "p6/p6.h"
 #define DOCTEST_CONFIG_IMPLEMENT
 #include "doctest/doctest.h"
@@ -17,56 +18,63 @@ int main(int argc, char* argv[])
     // Actual app
     auto ctx = p6::Context{{.title = "Simple-p6-Setup"}};
     ctx.maximize_window();
-    
+
     float screenWidth = ctx.aspect_ratio();
-    
-    float randSquare[100][3];
-    
-    for (int i = 0; i < 100; i++) {
+
+    std::vector<std::vector<float>> randSquare;
+
+    for (int i = 0; i < 100; i++)
+    {
+        randSquare.emplace_back();
         glm::vec2 RandCoord = p6::random::point();
-        randSquare[i][0] = RandCoord.x * ctx.aspect_ratio();
-        randSquare[i][1] = RandCoord.y;
-        randSquare[i][2] = floorf(p6::random::number(4));
+        randSquare[i].push_back(RandCoord.x * ctx.aspect_ratio());
+        randSquare[i].push_back(RandCoord.y);
+        randSquare[i].push_back(floorf(p6::random::number(4)));
+        randSquare[i].push_back(p6::random::number());
     }
 
     // Declare your infinite update loop.
     ctx.update = [&]() {
-        //ctx.background(p6::NamedColor::RedViolet);
+        // ctx.background(p6::NamedColor::RedViolet);
         ctx.use_stroke = false;
-        ctx.fill = {0.f, 0.f, 0.f, 0.1f};
+        ctx.fill       = {0.f, 0.f, 0.f, 0.1f};
         ctx.rectangle(p6::FullScreen{});
-        
-        ctx.fill = {1.f, 1.f, 1.f};
-        
-        for (int i = 0; i < 100; i++) {
+
+        for (auto& i : randSquare)
+        {
+            ctx.fill = {i[3], 0.f, 0.f};
             ctx.square(
-                p6::Center{randSquare[i][0], randSquare[i][1]},
+                p6::Center{i[0], i[1]},
                 p6::Radius{0.1f}
             );
-            
-            switch ((int)randSquare[i][2]) {
-                case 0:
-                    randSquare[i][1] += 0.01f;
-                    if (randSquare[i][1] > 1.f) randSquare[i][2] = 2;
-                    break;
-                    
-                case 1:
-                    randSquare[i][0] += 0.01f;
-                    if (randSquare[i][0] > screenWidth) randSquare[i][2] = 4;
-                    break;
-                    
-                case 2:
-                    randSquare[i][1] -= 0.01f;
-                    if (randSquare[i][1] < -1.f) randSquare[i][2] = 0;
-                    break;
-                    
-                default:
-                    randSquare[i][0] -= 0.01f;
-                    if (randSquare[i][0] < -screenWidth) randSquare[i][2] = 1;
-                    break;
+
+            switch (static_cast<int>(i[2]))
+            {
+            case 0:
+                i[1] += 0.01f;
+                if (i[1] > 1.f)
+                    i[2] = 2;
+                break;
+
+            case 1:
+                i[0] += 0.01f;
+                if (i[0] > screenWidth)
+                    i[2] = 4;
+                break;
+
+            case 2:
+                i[1] -= 0.01f;
+                if (i[1] < -1.f)
+                    i[2] = 0;
+                break;
+
+            default:
+                i[0] -= 0.01f;
+                if (i[0] < -screenWidth)
+                    i[2] = 1;
+                break;
             }
         }
-        
     };
 
     // Should be done last. It starts the infinite loop.
