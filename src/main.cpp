@@ -60,7 +60,7 @@ glm::vec2 newPosFromAngle(float centerX, float centerY, int angle, float speed)
 int main(int argc, char* argv[])
 {
     bool  SEPERATION = true;
-    float distance   = 0.1;
+    float distance   = 0.1f;
 
     { // Run the tests
         if (doctest::Context{}.run() != 0)
