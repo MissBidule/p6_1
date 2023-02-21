@@ -1,6 +1,4 @@
 #include <stdlib.h>
-#define _USE_MATH_DEFINES
-#include <cmath>
 #include <vector>
 #include "p6/p6.h"
 #define DOCTEST_CONFIG_IMPLEMENT
@@ -37,7 +35,7 @@ public:
 
 float Deg2Rad(int deg)
 {
-    return static_cast<float>(deg * (M_PI / static_cast<float>(180)));
+    return static_cast<float>(deg) * (p6::PI / static_cast<float>(180));
 }
 
 glm::vec2 newPosFromAngle(float centerX, float centerY, int angle, float speed)
