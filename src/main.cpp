@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <cmath>
 #include <vector>
 #include "p6/p6.h"
 #define DOCTEST_CONFIG_IMPLEMENT
