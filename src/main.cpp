@@ -1,5 +1,9 @@
 #include <stdlib.h>
 #include <vector>
+#include "glm/fwd.hpp"
+#include "glm/geometric.hpp"
+#include "glm/gtx/norm.hpp"
+#include "glm/trigonometric.hpp"
 #include "p6/p6.h"
 #define DOCTEST_CONFIG_IMPLEMENT
 #include "doctest/doctest.h"
@@ -38,6 +42,11 @@ float Deg2Rad(int deg)
     return static_cast<float>(deg) * (p6::PI / static_cast<float>(180));
 }
 
+int Rad2Deg(float rad)
+{
+    return static_cast<int>((rad * 180) / p6::PI);
+}
+
 glm::vec2 newPosFromAngle(float centerX, float centerY, int angle, float speed)
 {
     glm::vec2 newPos;
@@ -50,6 +59,9 @@ glm::vec2 newPosFromAngle(float centerX, float centerY, int angle, float speed)
 
 int main(int argc, char* argv[])
 {
+    bool  SEPERATION = true;
+    float distance   = 0.1;
+
     { // Run the tests
         if (doctest::Context{}.run() != 0)
             return EXIT_FAILURE;
@@ -67,7 +79,7 @@ int main(int argc, char* argv[])
 
     std::vector<Boid> randSquare;
 
-    for (int i = 0; i < 50; i++)
+    for (int i = 0; i < 60; i++)
     {
         glm::vec2 RandCoord = p6::random::point();
         randSquare.emplace_back(RandCoord.x * screenWidth, RandCoord.y, p6::random::integer(1, 360), 0.002f, p6::random::number(0.25f, 1.f));
@@ -82,6 +94,14 @@ int main(int argc, char* argv[])
 
         for (auto& i : randSquare)
         {
+            if (&i == randSquare.data())
+            {
+                ctx.fill = {0.f, 0.f, 0.8f};
+                ctx.circle(
+                    p6::Center{i.getX(), i.getY()},
+                    p6::Radius{distance}
+                );
+            }
             ctx.fill = {i.getColor(), 0.f, 0.f};
             ctx.square(
                 p6::Center{i.getX(), i.getY()},
@@ -109,6 +129,44 @@ int main(int argc, char* argv[])
             if (newPos.y < -1)
                 newPos.y = 1.f;
             i.setPos(newPos.x, newPos.y);
+        }
+
+        // SEPARATION
+        if (SEPERATION)
+        {
+            glm::vec2 vect0(1, 0);
+            for (size_t i = 0; i < randSquare.size(); i++)
+            {
+                glm::vec2 totalForce = glm::vec2();
+                glm::vec2 posInit    = glm::vec2(randSquare[i].getX(), randSquare[i].getY());
+                for (size_t j = 0; j < randSquare.size(); j++)
+                {
+                    if (j == i)
+                        continue;
+
+                    glm::vec2 posFinal        = glm::vec2(randSquare[j].getX(), randSquare[j].getY());
+                    float     distanceBetween = abs(glm::distance(posInit, posFinal));
+                    if (distanceBetween < distance)
+                    {
+                        totalForce += (posInit - posFinal) / distanceBetween;
+                    }
+                }
+
+                if (i == 0)
+                {
+                    ctx.stroke = {0.f, 1.f, 0.f};
+                    ctx.line(posInit, posInit + totalForce);
+                }
+
+                if (totalForce != glm::vec2())
+                {
+                    float newAngle = glm::acos((glm::dot(totalForce, vect0)) / glm::l2Norm(glm::vec3(totalForce, 0)));
+
+                    std::cout << "Angle : " << glm::acos(glm::dot(totalForce, vect0) / glm::l2Norm(glm::vec3(totalForce, 0))) << std::endl;
+
+                    randSquare[i].setAngle(Rad2Deg(newAngle));
+                }
+            }
         }
     };
 
