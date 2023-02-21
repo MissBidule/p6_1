@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
     for (int i = 0; i < 50; i++)
     {
         glm::vec2 RandCoord = p6::random::point();
-        randSquare.emplace_back(RandCoord.x * screenWidth, RandCoord.y, p6::random::integer(1, 360), 0.002, p6::random::number(0.25f, 1.f));
+        randSquare.emplace_back(RandCoord.x * screenWidth, RandCoord.y, p6::random::integer(1, 360), 0.002f, p6::random::number(0.25f, 1.f));
     }
 
     // Declare your infinite update loop.
