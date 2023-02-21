@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#define _USE_MATH_DEFINES
 #include <cmath>
 #include <vector>
 #include "p6/p6.h"
